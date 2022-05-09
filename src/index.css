@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/* font-family: 'Space Mono', monospace; */
+
+/* Variables */
+:root{
+  --color-primary: #7380ec;
+  --color-danger: #ff7782;
+  --color-success: #41f1b6;
+  --color-warning: #ffbb55;
+  --color-white: #fff;
+  --color-info-dark: #7d8da1;
+  --color-info-light: #dce1eb;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-primary-variant: #111e88;
+  --color-dark-variant: #677483;
+  --color-bg: #f6f6f9;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+  --transition: all 300ms ease;
+
+  /* ======= neumorphic ======== */
+  --neu-light: rgba(211, 211, 211, 0.2);
+  --neu-dark: rgba(0,0,0,.2);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ========= Dark Theme Variable ========== */
+
+.dark-theme-variables{
+  --color-bg: #181a1e;
+  --color-white: #202528;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0,0,0,0.4);
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: var(--color-bg); */
+  font-family: 'Space Mono', monospace;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.container .bg-effect{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  /* background: Black; */
+  background: var(--color-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+}
+
+.bg-effect .circle1{
+  width: 30rem;
+  height: 30rem;
+  background: rgba(255, 204, 18, 0.4);
+  border-radius: 50%;
+  margin-top: 5rem;
+}
+.bg-effect .circle2{
+  width: 30rem;
+  height: 30rem;
+  background: rgba(45, 202, 255, 0.4);
+  border-radius: 50%;
+  margin-bottom: 5rem;
+}
+
+main{
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(4rem);
+  background-color: rgba(255, 255, 255,0.1);
+}
+
+.danger{
+  color: var(--color-danger);
+}
+
+.primary{
+  color: var(--color-primary);
+}
+
+.warning{
+  color: var(--color-warning);
+}
+
+.success{
+  color: var(--color-success);
 }

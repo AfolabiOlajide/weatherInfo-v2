@@ -1,0 +1,25 @@
+.weather-info-container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2rem);
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    box-shadow: 2rem 2rem 3rem var(--neu-dark)
+}
+
+.weather-icon img{
+    width: 15rem;
+}
+
+.weather-info-container .info .other-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.weather-info-container .info h1{
+    margin-bottom: 2rem;
+}
