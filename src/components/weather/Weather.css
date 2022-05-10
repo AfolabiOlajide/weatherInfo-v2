@@ -9,6 +9,12 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 1200px) {
+    .weather{
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .weather{
         padding-top: 4rem;
