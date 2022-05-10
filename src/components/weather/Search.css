@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     /* background: rgb(237, 237, 237); */
-    background: var(--color-bg);
+    background: var(--color-light);
     box-shadow: inset 3px 3px 3px var(--neu-dark),
                 inset -3px -3px 3px var(--neu-light),
                 3px 3px 5px var(--neu-dark),
@@ -15,9 +15,9 @@
 .search .search-icon{
     background: linear-gradient(145deg , rgb(202, 236, 255), var(--color-primary));
     color: white;
-    box-shadow: 3px 3px 5px rgba(1, 38, 111, 0.5),
-                -3px -3px 5px rgba(242, 251, 255, 0.9);
-                font-size: 1.5rem;
+    /* box-shadow: 3px 3px 5px rgba(1, 38, 111, 0.5),
+                -3px -3px 5px rgba(242, 251, 255, 0.9); */
+    font-size: 1.5rem;
     border-radius: 50%;
     font-size: 3rem;
     display: flex;
@@ -40,6 +40,7 @@
     outline: none;
     background: transparent;
     transition: var(--transition);
+    color: var(--color-dark);
 }
 
 @media screen and (max-width: 900px) {

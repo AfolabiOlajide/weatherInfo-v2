@@ -19,6 +19,7 @@
 
   --box-shadow: 0 2rem 3rem var(--color-light);
   --transition: all 500ms ease;
+  --bg-glass: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(212, 247, 249, 0.2)) ;
 
   /* ======= neumorphic ======== */
   --neu-light: rgba(211, 211, 211, 0.2);
@@ -34,7 +35,16 @@
   --color-dark-variant: #a3bdcc;
   --color-light: rgba(0,0,0,0.4);
   --box-shadow: 0 2rem 3rem var(--color-light);
+  --color-info-light: #616568;
+  --neu-light: rgba(225, 225, 225, 0.2);
+  --neu-dark: rgba(47, 47, 47, 0.2);
+  --bg-glass: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), rgba(34, 43, 43, 0.3)) ;
 }
+
+.dark-theme-variables .weather-info-container{
+  box-shadow: 2rem 2rem 70px rgba(56, 56, 56, .5);
+}
+
 
 
 *{

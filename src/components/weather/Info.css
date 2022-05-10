@@ -3,7 +3,8 @@
     width: 80%;
     display: flex;
     gap: 2rem;
-    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(212, 247, 249, 0.2)) ;
+    /* background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(212, 247, 249, 0.2)) ; */
+    background: var(--bg-glass) ;
     backdrop-filter: blur(2rem);
     padding: 2rem 3rem;
     border-radius: 2rem;
@@ -43,6 +44,7 @@
 
 .weather-info-container .info h2{
     background: var(--color-light-bg);
+    color: var(--color-dark);
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 3px 3px 10px var(--neu-dark),

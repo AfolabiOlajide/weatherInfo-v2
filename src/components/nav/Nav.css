@@ -18,6 +18,10 @@ nav .logo img{
     width: 5rem;
 }
 
+nav .logo h2{
+    color: var(--color-dark);
+}
+
 nav .logo h2 span{
     color: var(--color-primary);
 }
@@ -31,7 +35,8 @@ nav .toggle{
     gap: 1rem;
     /* width: 6rem; */
     border-radius: 3rem;
-    background-color: rgb(237, 237, 237);
+    background-color: var(--color-info-light);
+    /* background-color: rgb(237, 237, 237); */
     box-shadow: inset 3px 3px 3px var(--neu-dark),
                 inset -3px -3px 3px var(--neu-light);
 }
@@ -48,8 +53,8 @@ nav .toggle span{
 nav .toggle .active{
     background: linear-gradient(145deg , rgb(202, 236, 255), var(--color-primary));
     color: white;
-    box-shadow: 3px 3px 5px rgba(1, 38, 111, 0.5),
-                -3px -3px 5px rgba(242, 251, 255, 0.9);
+    /* box-shadow: 3px 3px 5px rgba(1, 38, 111, 0.5),
+                -3px -3px 5px rgba(242, 251, 255, 0.9); */
 }
 
 @media screen and (max-width: 1200px) {
