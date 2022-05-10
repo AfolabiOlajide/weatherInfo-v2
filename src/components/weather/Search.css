@@ -41,3 +41,14 @@
     background: transparent;
     transition: var(--transition);
 }
+
+@media screen and (max-width: 900px) {
+    .search .search-icon{
+        font-size: 1.8rem;
+        padding: .7rem;
+    }
+
+    .search:hover .search-input{
+        font-size: .8rem;
+    }
+}

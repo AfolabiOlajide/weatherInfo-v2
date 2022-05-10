@@ -15,9 +15,10 @@
   --color-primary-variant: #111e88;
   --color-dark-variant: #677483;
   --color-bg: #f6f6f9;
+  --color-light-bg: rgba(255, 255, 255,0.1);
 
   --box-shadow: 0 2rem 3rem var(--color-light);
-  --transition: all 300ms ease;
+  --transition: all 500ms ease;
 
   /* ======= neumorphic ======== */
   --neu-light: rgba(211, 211, 211, 0.2);
