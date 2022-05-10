@@ -70,6 +70,7 @@
         flex-direction: column;
         gap: 0;
         width: 90%;
+        padding: 1rem 1.5rem;
     }
 
     .weather-icon img{
@@ -82,5 +83,6 @@
 
     .weather-info-container .info .other-info{
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
 }
