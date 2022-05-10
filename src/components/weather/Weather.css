@@ -13,5 +13,6 @@
     .weather{
         padding-top: 4rem;
         gap: 2rem;
+        height: auto;
     }
 }
