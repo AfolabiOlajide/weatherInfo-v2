@@ -39,6 +39,7 @@
   --neu-light: rgba(225, 225, 225, 0.2);
   --neu-dark: rgba(47, 47, 47, 0.2);
   --bg-glass: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), rgba(34, 43, 43, 0.3)) ;
+  --color-light-bg: rgba(90, 90, 90, 0.1);
 }
 
 .dark-theme-variables .weather-info-container{
