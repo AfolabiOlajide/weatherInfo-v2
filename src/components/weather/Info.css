@@ -43,19 +43,19 @@
 }
 
 .weather-info-container .info h2{
-    background: var(--color-light-bg);
+    /* background: var(--color-light-bg); */
     color: var(--color-dark);
     padding: 1rem;
-    border-radius: 1rem;
-    box-shadow: 3px 3px 10px var(--neu-dark),
-                -3px -3px 10px var(--neu-light);
+    /* border-radius: 1rem; */
+    /* box-shadow: 3px 3px 10px var(--neu-dark),
+                -3px -3px 10px var(--neu-light); */
     transition: var(--transition);
 }
 
-.weather-info-container .info h2:hover{
+/* .weather-info-container .info h2:hover{
     box-shadow: inset 3px 3px 10px var(--neu-dark),
                 inset -3px -3px 10px var(--neu-light);
-}
+} */
 
 @media screen and (max-width: 1200px) {
     .weather-icon img{
