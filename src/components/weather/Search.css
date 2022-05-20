@@ -1,4 +1,31 @@
+/* .search-main{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} */
+
+.suggestion{
+    position: absolute;
+    bottom: -155%;
+    left: 0;
+    width: 100%;
+    padding: .5rem;
+    background: var(--color-bg);
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.suggestion span{
+    padding: .5rem 0 0 1rem;
+}
+
 .search{
+    position: relative;
+    width: max-content;
     display: flex;
     justify-content: center;
     align-items: center;

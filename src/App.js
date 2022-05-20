@@ -1,3 +1,8 @@
+
+  import { ToastContainer } from 'react-toastify';
+
+  import 'react-toastify/dist/ReactToastify.css';
+
 import Nav from "./components/nav/Nav";
 import Weather from "./components/weather/Weather";
 
@@ -12,6 +17,7 @@ function App() {
         <Nav />
         <section>
           <Weather />
+        <ToastContainer />
         </section>
       </main>
     </div>
