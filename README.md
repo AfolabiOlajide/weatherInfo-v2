@@ -1,5 +1,9 @@
-# Weather App Project by Afolabi Olajide
+# Weather-Info Application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application allows user to search for their location
+and get weather information about that location. Built with 
+React this project has a nice UI and great user experience. 
 
-## About
+Link to live demo: [weather info](https://weatherinfo-v2.netlify.app/) 
+
+
